@@ -91,25 +91,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📁 Project Structure
 
-\`\`\`
-├── app/                    # Next.js 15 App Router
-│   ├── admin/             # Admin dashboard pages
-│   ├── api/               # API routes
-│   ├── auth/              # Authentication pages
-│   ├── products/          # Product pages
-│   └── globals.css        # Global styles
-├── components/            # Reusable components
-│   ├── ui/               # shadcn/ui components
-│   └── ...               # Custom components
-├── lib/                  # Utility functions
-│   ├── auth.ts           # NextAuth configuration
-│   └── prisma.ts         # Prisma client
-├── prisma/               # Database schema and migrations
-│   └── schema.prisma     # Database schema
-└── types/                # TypeScript type definitions
-\`\`\`
 
 ## 🔐 Authentication & Authorization
 

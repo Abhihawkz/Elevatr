@@ -9,9 +9,8 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "E-Commerce Store",
-  description: "Modern e-commerce platform built with Next.js 15",
-    generator: 'v0.dev'
+  title: "Elevatr - E-Commerce Platform",
+  description: "Modern e-commerce platform built with Next.js 15 - Elevate your business",
 }
 
 export default function RootLayout({
