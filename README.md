@@ -151,13 +151,4 @@ The app can be deployed on any platform that supports Next.js:
 4. Submit a pull request
 
 
-## 🆘 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review the code comments
-
----
-
 Built with ❤️ using Next.js 15 and modern web technologies.
