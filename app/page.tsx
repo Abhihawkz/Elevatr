@@ -225,7 +225,7 @@ export default async function HomePage() {
                     {product.description}
                   </CardDescription>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-2xl font-bold text-primary">${product.price}</span>
+                    <span className="text-2xl font-bold text-primary">₹{product.price}</span>
                     <Button size="sm" asChild className="bg-primary hover:bg-primary/90">
                       <Link href={`/products/${product.id}`}>View</Link>
                     </Button>

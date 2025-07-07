@@ -34,7 +34,7 @@ export default async function ProductsPage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <ShoppingBag className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold">EcoStore</span>
+            <span className="text-2xl font-bold">Elevatr</span>
           </Link>
           <div className="flex items-center space-x-4">
             <ThemeToggle />
@@ -102,7 +102,7 @@ export default async function ProductsPage() {
                 <CardTitle className="text-lg mb-2 line-clamp-1">{product.title}</CardTitle>
                 <CardDescription className="mb-3 line-clamp-2">{product.description}</CardDescription>
                 <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold">${product.price}</span>
+                  <span className="text-2xl font-bold">₹{product.price}</span>
                   <Button size="sm" asChild>
                     <Link href={`/products/${product.id}`}>View Details</Link>
                   </Button>

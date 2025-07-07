@@ -228,7 +228,7 @@ async function main() {
         title: "Classic Denim Jacket",
         description: "Timeless denim jacket perfect for any season",
         price: 89.99,
-        image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=400&fit=crop",
+        image: "https://images.unsplash.com/photo-1544966504-7cc5ac882d5f?w=400&h=400&fit=crop",
         stock: 75,
         views: 98,
         storeId: stores[1].id,
@@ -252,7 +252,7 @@ async function main() {
         title: "Designer Sneakers",
         description: "Comfortable and stylish sneakers for everyday wear",
         price: 129.99,
-        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop",
+        image: "https://media.theeverygirl.com/wp-content/uploads/2018/06/how-to-style-an-oversized-denim-jacket-f.jpg",
         stock: 60,
         views: 112,
         storeId: stores[1].id,
@@ -494,7 +494,7 @@ async function main() {
     prisma.marketingContent.create({
       data: {
         type: ContentType.EMAIL,
-        title: "Welcome to EcoStore!",
+        title: "Welcome to Elevatr!",
         content: "Thank you for joining our community. Discover amazing products from verified sellers.",
         isGenerated: false,
       },

@@ -42,7 +42,7 @@ export default async function ProductPage({ params }: { params: { id: string } }
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <ShoppingBag className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold">EcoStore</span>
+            <span className="text-2xl font-bold">Elevatr</span>
           </Link>
           <div className="flex items-center space-x-4">
             <ThemeToggle />
@@ -86,7 +86,7 @@ export default async function ProductPage({ params }: { params: { id: string } }
                 </div>
                 <span className="text-sm text-muted-foreground">4.5 (24 reviews) • {product.views} views</span>
               </div>
-              <p className="text-3xl font-bold text-primary mb-4">${product.price}</p>
+              <p className="text-3xl font-bold text-primary mb-4">₹{product.price}</p>
             </div>
 
             <div>

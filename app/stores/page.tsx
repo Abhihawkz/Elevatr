@@ -35,7 +35,7 @@ export default async function StoresPage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <ShoppingBag className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold">EcoStore</span>
+            <span className="text-2xl font-bold">Elevatr</span>
           </Link>
           <div className="flex items-center space-x-4">
             <ThemeToggle />
